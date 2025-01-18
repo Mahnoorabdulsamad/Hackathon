@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div className="h-[92px] w-[1440px] py-[24px] bg-[#FAFAFA]   ">
+      <div className="h-[92px] py-[24px] bg-[#FAFAFA]   ">
         <div className="ml-8 flex items-center gap-5">
           <h1 className="font-bold text-[14px] text-[#252B42]">Home</h1>
           <Image
@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
       </div>
 
-       <div className="h-[572px] w-[1440px] bg-[#FFFFFF]  ">
+       <div className="h-[572px]  bg-[#FFFFFF]  ">
         <div className="h-[91px] w-[1440px] ">
         <div className="h-[72px] w-[1050px] font-bold text-[14px] flex justify-center items-center  gap-10 ml-52 ">
           <h1>Description</h1>
@@ -139,7 +139,7 @@ const Hero = () => {
       </div> 
 
          {/* 8pic */}
-         <div className="h-[1086px] w-[1440px] bg-[#FAFAFA]">
+         <div className="h-[1086px]  bg-[#FAFAFA]">
           <div className="h-[1086px] w-[1124px] py-[48px] mx-52">
            <div className="h-[32px] w-[1040px] "> 
             <p className="font-bold text-[24px] text-[#252B42]">BESTSELLER PRODUCTS</p>
@@ -220,12 +220,12 @@ const Hero = () => {
          </div>
  
 
-          <div className="w-[1440px] h-[175px]">
+          <div className="h-[175px]">
              <Image
         src={"/image/desktop-clients-1.png"}
         alt="ser"
         height={175}
-        width={1440}stify-between
+        width={1600}
       />
           </div>
 

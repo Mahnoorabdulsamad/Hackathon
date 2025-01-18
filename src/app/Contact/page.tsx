@@ -81,7 +81,7 @@ const page = () => {
             <div className='h-[348px] w-[1050px] py-[80px] gap-[96px]  mx-56 left-[195px] flex'>
               <div className='h-[188px] w-[272px] gap-[16px]  mx-96  '>
                 <h1 className='font-bold text-[16px] ml-5'>WE Can &APOS; WAIT TO MEET YOU</h1>
-                <h1 className='font-bold text-[58px]'>Let &APOS; Talk</h1>
+                <h1 className='font-bold text-[58px]'>Let Talk</h1>
                 <div className='h-[55px] w-[186px] rounded-[5px] py-[15px] px-[50px] bg-[#23A6F0] gap-[10px] ml-10'>
                 <button className=' text-white font-bold text-[10px] w-[106] h-[22px]'>Try it free  now</button>
                 </div>

@@ -4,9 +4,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='w-[1440px]'>
+    <div >
 
-      <div className='bg-[#252B42] h-[58px] pt-1 gap-5 w-[1440px]' >
+      <div className='bg-[#252B42] h-[58px] pt-1 gap-5 ' >
 
        <div className='h-[46px] top-[9px] left-[2px] text-[#FFFFFF] flex ml-8 '>
         <div className=' h-[44px]  p-[10px] text-[#FFFFFF] flex  ' >
@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
       </div>
         {/* white space nav */}
-      <div className='h-[58px] top-[70px] border-3 border-black flex pt-5 w-[1440px]'>
+      <div className='h-[58px] top-[70px] border-3 border-black flex pt-5 '>
         <h1 className='font-bold text-[24px] h-[32px] w-[108px] ml-8'>Bandage</h1>
 
         <div className='h-[24px] w-[44px] flex gap-3'>

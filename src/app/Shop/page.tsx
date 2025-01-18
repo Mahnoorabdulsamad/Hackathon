@@ -3,10 +3,10 @@ import React from "react";
 
 const Shop = () => {
   return (
-    <div className="w-[1440px]">
+    <div >
       <div className="h-[92px] w-full py-[24px] bg-[#FAFAFA] flex">
         <h1 className="font-bold text-[24px] ml-10 ">Shop</h1>
-        <div className="h-[44px] flex items-center ml-auto gap-2">
+        <div className="h-[44px] flex items-center ml-auto mr-10 gap-2">
           <h1 className="font-bold text-[14px]">Home</h1>
           <Image
             src="/image/icn arrow-right icn-xs (1).png"
@@ -22,7 +22,7 @@ const Shop = () => {
         <Image src="/image/row.png" alt="row" height={270} width={1088} />
       </div>
 
-      <div className="h-[98px] w-[1440px] bg-[#FFFFFF] flex justify-center items-center">
+      <div className="h-[98px]  bg-[#FFFFFF] flex justify-center items-center">
         <div className="h-[98px] w-[1050px] py-[24px] gap-[80px] flex justify-between items-center">
           <h1 className="font-bold text-[14px] h-[24px] w-[166px]">
             Showing all 12 results
@@ -68,7 +68,7 @@ const Shop = () => {
 
     
 
-<div className="h-[1778px] w-[1440px] bg-[#FFFFFF]  flex flex-col">
+<div className="h-[1778px]  bg-[#FFFFFF]  flex flex-col">
 
   <div className="h-[488px] w-[1048px] flex justify-center items-center mx-56 mt-20">
     
