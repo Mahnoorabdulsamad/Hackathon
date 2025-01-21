@@ -24,7 +24,7 @@ const Navbar = () => {
        </div>
 
        <div className='h-[46px] w-[233px] p-[10px] flex ml-[370px]  '>
-        <h1 className='h-[24px] w-[83px]  '>Follow Us  :</h1>
+        <h1 className='h-[24px] w-[83px]  '>Follow Us:</h1>
         <Image src={"/image/social media (1).png"} alt='media' height={26} width={120}/>
 
       </div>
