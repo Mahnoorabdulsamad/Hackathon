@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="h-[92px] py-[24px] bg-[#FAFAFA]   ">
         <div className="ml-8 flex items-center gap-5 ">
           <h1 className="font-bold text-[14px] text-[#252B42]">Home</h1>
-          <Image className=""
+          <Image 
             src="/image/icn arrow-right icn-xs (1).png"
             alt="arrow-right"
             height={16}
@@ -242,66 +242,3 @@ const Hero = () => {
 export default Hero;
 
 
-// import React from 'react'
-// import Image from 'next/image'
-
-// const Hero = () => {
-//   return (
-//     <div className=' '>
-      {/* <div className=' h-[716px]  '> */}
-        {/* <Image  src={"/image/shop-hero-1-product-slide-1.png"} alt="hero" height={716} width={14400}/> */}
-        {/* <div className="h-[331px] w-[599px] border-2 border-black mb-10">
-          <p className='font-bold text-[16px]'>SUMMER 2020</p>
-          <h1 className='h-[80px] font-bold text-[58px] text-black'>NEW COLLECTION</h1>
-
-
-        </div> */}
-
-
-      {/* </div> */}
-
-{/* 2nd part */}
-     {/* <div className='h-[770px] border-black border-2'> */}
-      {/* <div className='w-[1050px] h-[770px] border-black border-2 '>
-        <div className='h-[62px] w-[607px] border-black border-2  text-center '>
-          <h1 className='font-bold text-[#252B42] text-[24px]'>EDITOR’S PICK</h1>
-          <p className='font-normal text-[14px]  text-[#737373]'>Problems trying to resolve the conflict between </p>
-        </div>
-        <div className='h-[500px] w-[1050px] border-black border-2 '>
-          <Image  src={"/image/card-item.png"} alt='boy' width={510} height={500}/>
-          <Image  src={"/image/col-md-3 (1).png"} alt='girl' width={240} height={500}/>
-          <Image  src={"/image/col-md-3 (2).png"} alt='gb' width={240} height={500}/>
-
-        </div>
-      </div> */}
-
-     {/* </div> */}
-    {/* 3rd part */}
-
-    {/* <div className=' w-[1440px] h-[1652px] bg-[#FFFFFF]  '>
-
-    </div> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-{/*       
-    </div>
-  )
-}
-
-export default Hero */}
